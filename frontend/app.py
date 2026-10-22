@@ -61,7 +61,7 @@ with st.sidebar:
 # ---------------------------------------------------------
 
 st.title("🏨 Aurora Stays")
-st.write("Ask a question about Aurora Stays policies.")
+st.write("Ask a question about AuroraStay hotel policies. Answers are generated only from the policy documents.")
 
 
 # ---------------------------------------------------------
@@ -81,7 +81,7 @@ response_type = st.radio(
 
 query = st.text_input(
     "Your question",
-    placeholder="e.g., What is the waiting period for hospitalization?"
+    placeholder="e.g., What is the pet fee at ASH-CHI Loop?"
 )
 
 
